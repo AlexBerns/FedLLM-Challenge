@@ -1,0 +1,40 @@
+# Python venv
+venv/
+.env/
+*.env
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow cache
+*.pth
+*.pt
+*.h5
+
+# Logs
+*.log
+
+# Flower / ML artifacts
+flwr_server_state/
+flwr_client_state/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
